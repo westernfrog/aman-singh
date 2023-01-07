@@ -6,12 +6,12 @@ export default function Footer(params) {
           <h1
             className="display-3 fw-bolder text-center"
             style={{
-              textShadow: " 0 0 3px #000, 0 0 10px #C780FA",
+              textShadow: " 0 0 3px red, 0 0 10px #EAC7C7",
             }}
           >
             Lets get in touch!
           </h1>
-          <p className="text-rubik fs-5 text-center">
+          <p className="text-any fs-5 text-center">
             Have an exciting project where you need some help? <br />
             Send me over a message, <br />
             <span
