@@ -5,11 +5,11 @@ export default function Aboutme(params) {
     <>
       <div className="container col-xxl-12 py-5 text-white mb-5">
         <div className="row flex-lg-row-reverse align-items-center py-lg-5">
-          <div className="col-10 col-sm-8 col-lg-6">
+          <div className="col-10 col-sm-8 col-lg-6 my-5 mx-auto">
             <Image
               src="https://cdn-icons-png.flaticon.com/512/9120/9120832.png"
-              className="d-block mx-lg-auto img-fluid"
-              alt="Bootstrap Themes"
+              className="d-block mx-lg-auto img-fluid btnp shadow"
+              alt="about me"
               width="400"
               height="400"
               priority
