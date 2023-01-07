@@ -3,7 +3,7 @@ export default function Contact() {
     <>
       <div className="container">
         <button
-          className="btn btn-dark btn-lg fixed-bottom mx-lg-5 my-lg-5 rounded-pill mx-3 my-5"
+          className="btn btn-dark btn-lg fixed-bottom mx-lg-5 my-lg-5 rounded-pill mx-3 my-5 btnp shadow"
           style={{
             left: "auto",
             boxShadow: "inherit",

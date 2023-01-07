@@ -8,7 +8,13 @@ export default function Header() {
         <div className="container">
           <nav className="navbar navbar-expand-lg navbar-dark fs-5 py-3">
             <div className="container-fluid text-rubik px-0">
-              <Link className="navbar-brand text-mono fw-bold fs-4" href="/">
+              <Link
+                className="navbar-brand text-mono fw-bold fs-4"
+                href="/"
+                style={{
+                  textShadow: " 0 0 3px #000, 0 0 1px #eee",
+                }}
+              >
                 <Image
                   src="https://cdn-icons-png.flaticon.com/512/9120/9120848.png"
                   alt="a rose"

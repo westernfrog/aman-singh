@@ -18,7 +18,7 @@ body {
   background-color: #111;
 }
 .btnp:hover {
-  transform: translate(0px, -5px);
+  transform: translate(0px, -8px);
   transition: transform 300ms ease-in-out;
 }
 .btnp {
@@ -51,9 +51,6 @@ main {
   to {
     transform: rotate(1turn);
   }
-}
-.text-glow {
-  text-shadow: "0 0 3px #CD0404, 0 0 10px #FF0032" !important;
 }
 .rose {
   background-image: url("https://cdn-icons-png.flaticon.com/512/7091/7091502.png");

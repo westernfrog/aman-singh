@@ -6,7 +6,7 @@ export default function Footer(params) {
           <h1
             className="display-3 fw-bolder text-start"
             style={{
-              textShadow: " 0 0 3px #CD0404, 0 0 10px #FF0032",
+              textShadow: " 0 0 3px #CD0404, 0 0 10px pink",
             }}
           >
             Lets get in touch!
@@ -14,7 +14,7 @@ export default function Footer(params) {
           <p
             className="text-rubik fs-5 text-center mt-4"
             style={{
-              textShadow: " 0 0 3px #111, 0 0 5px #111",
+              textShadow: " 0 0 3px pink, 0 0 5px #111",
             }}
           >
             Have an exciting project where you need some help? <br />
