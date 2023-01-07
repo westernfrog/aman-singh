@@ -6,7 +6,7 @@ export default function Footer(params) {
           <h1
             className="display-3 fw-bolder text-center"
             style={{
-              textShadow: " 0 0 3px red, 0 0 10px #EAC7C7",
+              textShadow: " 0 0 3px red, 0 0 10px #7B2869",
             }}
           >
             Lets get in touch!
