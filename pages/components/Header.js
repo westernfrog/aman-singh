@@ -12,7 +12,7 @@ export default function Header() {
                 className="navbar-brand text-mono fw-bold fs-4"
                 href="/"
                 style={{
-                  textShadow: " 0 0 3px #000, 0 0 1px #eee",
+                  textShadow: " 0 0 3px #000, 0 0 1px red",
                 }}
               >
                 <Image
