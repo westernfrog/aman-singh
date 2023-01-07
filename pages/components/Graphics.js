@@ -1,18 +1,18 @@
 export default function Graphics(params) {
   return (
     <>
-      <div class="lamp bg-transparent">
-        <div class="lava">
-          <div class="blob"></div>
-          <div class="blob"></div>
-          <div class="blob"></div>
-          <div class="blob"></div>
-          <div class="blob"></div>
-          <div class="blob"></div>
-          <div class="blob"></div>
-          <div class="blob"></div>
-          <div class="blob top"></div>
-          <div class="blob bottom"></div>
+      <div ClassName="lamp bg-transparent">
+        <div ClassName="lava">
+          <div ClassName="blob"></div>
+          <div ClassName="blob"></div>
+          <div ClassName="blob"></div>
+          <div ClassName="blob"></div>
+          <div ClassName="blob"></div>
+          <div ClassName="blob"></div>
+          <div ClassName="blob"></div>
+          <div ClassName="blob"></div>
+          <div ClassName="blob top"></div>
+          <div ClassName="blob bottom"></div>
         </div>
       </div>
       <svg xmlns="http://www.w3.org/2000/svg" version="1.1">

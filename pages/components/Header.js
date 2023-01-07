@@ -65,7 +65,7 @@ export default function Header() {
                       href="/"
                     >
                       <i
-                        class="fa-solid fa-heart"
+                        className="fa-solid fa-heart"
                         style={{ color: "maroon" }}
                       ></i>
                     </Link>
@@ -84,12 +84,12 @@ export default function Header() {
                   </li>
                   <li className="nav-item me-4 d-none d-lg-block">
                     <Link className="nav-link" aria-current="page" href="/">
-                      <i class="fa-brands fa-github fa-lg"></i>
+                      <i className="fa-brands fa-github fa-lg"></i>
                     </Link>
                   </li>
                   <li className="nav-item d-none d-lg-block">
                     <Link className="nav-link" href="/">
-                      <i class="fa-brands fa-linkedin-in fa-lg"></i>
+                      <i className="fa-brands fa-linkedin-in fa-lg"></i>
                     </Link>
                   </li>
                 </ul>

@@ -19,7 +19,7 @@ export default function Project(props) {
               </div>
               <Image
                 src={props.img}
-                class="img-fluid bg-dark mx-auto d-block rounded pb-5"
+                className="img-fluid bg-dark mx-auto d-block rounded pb-5"
                 alt="project"
               />
             </div>
