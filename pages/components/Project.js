@@ -21,6 +21,8 @@ export default function Project(props) {
                 src={props.img}
                 className="img-fluid bg-dark mx-auto d-block rounded pb-5"
                 alt="project"
+                width={"500"}
+                height={"500"}
               />
             </div>
           </button>

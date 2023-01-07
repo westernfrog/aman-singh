@@ -4,30 +4,31 @@ import Graphics from "./Graphics";
 export default function Home(params) {
   return (
     <>
-      <div classname="container col-xxl-12 py-5 text-white">
-        <div classname="row align-items-center py-lg-5">
-          <div classname="col-lg-6 ">
-            <h1 classname="display-5 fw-bold lh-1 mb-3 text-mono">
+      <div className="container col-xxl-12 py-5 text-white">
+        <div className="row align-items-center py-lg-5">
+          <div className="col-lg-6 ">
+            <h1 className="display-5 fw-bold lh-1 mb-3 text-mono">
               Hi, I&apos;m Aman Singh.
               <br />A Front-end Developer.
             </h1>
-            <p classname="lead text-rubik">
+            <p className="lead text-rubik">
               I build stuffs for the web and bring them to life by using HTML,
               CSS and JavaScript as my spells. I am also a back-end developer
               and I love roses.
             </p>
           </div>
-          <div classname="col-10 col-sm-8 col-lg-6">
+          <div className="col-10 col-sm-8 col-lg-6">
             <Image
               src="https://cdn-icons-png.flaticon.com/512/1087/1087460.png"
-              classname="d-block mx-lg-auto img-fluid"
+              className="d-block mx-lg-auto img-fluid"
               alt="Bootstrap Themes"
               width="500"
               height="500"
+              priority
             />
           </div>
+          <Graphics />
         </div>
-        <Graphics />
       </div>
     </>
   );
