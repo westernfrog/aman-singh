@@ -4,7 +4,7 @@ export default function Footer(params) {
       <div className="container vw-100 vh-100 d-flex align-items-center justify-content-between">
         <div className="text-light text-mono mx-auto text-center rose py-5">
           <h1
-            className="display-3 fw-bolder text-start"
+            className="display-3 fw-bolder text-center"
             style={{
               textShadow: " 0 0 3px #CD0404, 0 0 10px pink",
             }}
