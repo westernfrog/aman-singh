@@ -10,6 +10,9 @@
 .bg-dark {
   background-color: #191919 !important;
 }
+.bg-black {
+  background-color: #111 !important;
+}
 body {
   overflow-x: hidden;
   background-color: #111;

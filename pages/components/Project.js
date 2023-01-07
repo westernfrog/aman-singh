@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function Project(props) {
   return (
     <>
-      <div className="container">
+      <div className="container" id="projects">
         <div className="row my-5 text-rubik p-3">
           <button className="btn text-light p-0">
             <div

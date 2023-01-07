@@ -37,17 +37,25 @@ export default function Header() {
                     </Link>
                   </li>
                   <li className="nav-item me-lg-4">
-                    <Link className="nav-link" aria-current="page" href="/">
+                    <Link
+                      className="nav-link"
+                      aria-current="page"
+                      href="/about"
+                    >
                       About
                     </Link>
                   </li>
                   <li className="nav-item">
-                    <Link className="nav-link" href="/">
+                    <a className="nav-link" href="#projects">
                       Projects
-                    </Link>
+                    </a>
                   </li>
                   <li className="nav-item d-lg-none">
-                    <Link className="nav-link" aria-current="page" href="/">
+                    <Link
+                      className="nav-link"
+                      aria-current="page"
+                      href="/contact"
+                    >
                       Contact
                     </Link>
                   </li>
@@ -78,7 +86,14 @@ export default function Header() {
               <div className="collapse navbar-collapse" id="navbarNav">
                 <ul className="navbar-nav ms-auto fw-bold">
                   <li className="nav-item me-4 d-none d-lg-block">
-                    <Link className="nav-link" aria-current="page" href="/">
+                    <Link
+                      className="nav-link"
+                      aria-current="page"
+                      data-bs-toggle="offcanvas"
+                      data-bs-target="#offcanvasRight"
+                      aria-controls="offcanvasRight"
+                      href="/"
+                    >
                       Contact
                     </Link>
                   </li>
