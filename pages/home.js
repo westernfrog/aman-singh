@@ -6,12 +6,22 @@ export default function Home(params) {
     <>
       <div className="container col-xxl-12 py-5 text-white">
         <div className="row align-items-center py-lg-5">
-          <div className="col-lg-6 ">
-            <h1 className="display-5 fw-bold lh-1 mb-3 text-mono">
+          <div className="col-lg-6">
+            <h1
+              className="display-5 fw-bold lh-1 mb-3 text-mono"
+              style={{
+                textShadow: " 0 0 3px #000, 0 0 3px #eee",
+              }}
+            >
               Hi, I&apos;m Aman Singh.
               <br />A Front-end Developer.
             </h1>
-            <p className="lead text-rubik">
+            <p
+              className="lead text-rubik"
+              style={{
+                textShadow: " 0 0 2px #000, 0 0 1px #eee",
+              }}
+            >
               I build stuffs for the web and bring them to life by using HTML,
               CSS and JavaScript as my spells. I am also a back-end developer
               and I love roses.

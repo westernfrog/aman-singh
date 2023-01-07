@@ -3,18 +3,25 @@ export default function Footer(params) {
     <>
       <div className="container vw-100 vh-100 d-flex align-items-center justify-content-between">
         <div className="text-light text-mono mx-auto text-center rose py-5">
-          <h1 className="display-4 fw-bold">
-            Lets get in&nbsp;
-            <span className="fw-bold" style={{ color: "#FF0032" }}>
-              touch!
-            </span>
+          <h1
+            className="display-3 fw-bolder text-start"
+            style={{
+              textShadow: " 0 0 3px #CD0404, 0 0 10px #FF0032",
+            }}
+          >
+            Lets get in touch!
           </h1>
-          <p className="text-rubik fs-3 text-center mt-4">
+          <p
+            className="text-rubik fs-5 text-center mt-4"
+            style={{
+              textShadow: " 0 0 3px #111, 0 0 5px #111",
+            }}
+          >
             Have an exciting project where you need some help? <br />
-            Send me over a message, and&nbsp; I may not be able to teleport, but
-            I can make your website load faster than you can say
-            &apos;abracadabra&apos;
-            <span className="text-decoration-underline">let&apos;s chat.</span>
+            Send me over a message, and&nbsp;
+            <span className="text-decoration-underline bg-dark">
+              let&apos;s chat.
+            </span>
           </p>
         </div>
       </div>

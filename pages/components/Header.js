@@ -67,16 +67,13 @@ export default function Header() {
               >
                 <ul className="navbar-nav me-auto">
                   <li className="nav-item">
-                    <Link
-                      className="nav-link ps-4"
-                      aria-current="page"
-                      href="/"
-                    >
-                      <i
-                        className="fa-solid fa-heart"
-                        style={{ color: "maroon" }}
-                      ></i>
-                    </Link>
+                    <main className="py-0">
+                      <div class="circle">
+                        <div class="circle">
+                          <div class="circle"></div>
+                        </div>
+                      </div>
+                    </main>
                   </li>
                 </ul>
               </div>

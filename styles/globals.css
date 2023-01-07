@@ -17,8 +17,46 @@ body {
   overflow-x: hidden;
   background-color: #111;
 }
+.btnp:hover {
+  transform: translate(0px, -5px);
+  transition: transform 300ms ease-in-out;
+}
+.btnp {
+  transition: transform 300ms ease-in-out;
+}
+main {
+  padding: 1.5em 0;
+}
+.circle {
+  border-radius: 50%;
+  box-shadow: 0 0 0 2px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  width: 1em;
+  height: 1em;
+  transform-origin: 50% 19.1%;
+  color: #eee;
+}
+.circle > .circle {
+  animation: circle 6s linear infinite;
+  width: 61.8%;
+  height: 61.8%;
+}
+
+@keyframes circle {
+  from {
+    transform: rotate(0);
+  }
+  to {
+    transform: rotate(1turn);
+  }
+}
+.text-glow {
+  text-shadow: "0 0 3px #CD0404, 0 0 10px #FF0032" !important;
+}
 .rose {
-  background-image: url("https://cdn-icons-png.flaticon.com/512/8263/8263510.png");
+  background-image: url("https://cdn-icons-png.flaticon.com/512/7091/7091502.png");
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;

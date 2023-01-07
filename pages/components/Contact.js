@@ -17,7 +17,7 @@ export default function Contact() {
         </button>
 
         <div
-          className="offcanvas offcanvas-end mx-lg-5 my-lg-5 rounded-3 bg-black mx-md-0 my-md-0"
+          className="offcanvas offcanvas-end mx-lg-5 my-lg-5 rounded-3 bg-black my-2"
           tabindex="-1"
           id="offcanvasRight"
           aria-labelledby="offcanvasRightLabel"
@@ -40,7 +40,9 @@ export default function Contact() {
                   <div class="d-flex gap-2 w-100 justify-content-between bg-dark text-light">
                     <div>
                       <h6 class="mb-0 text-rubik">Amswe Bot</h6>
-                      <p class="mb-0 opacity-75 h6 text-dm">Ask me anything!</p>
+                      <p class="mb-0 opacity-75 h6 text-dm">
+                        Ask me a question!
+                      </p>
                     </div>
                   </div>
                 </a>
@@ -52,10 +54,13 @@ export default function Contact() {
               data-bs-dismiss="offcanvas"
               aria-label="Close"
             >
-              <i class="fa-solid fa-xmark fa-xl text-light"></i>
+              <i class="fa-solid fa-xmark fa-lg text-light"></i>
             </button>
           </div>
-          <div className="offcanvas-body">...</div>
+          <div className="offcanvas-body text-light">
+            I may not be able to teleport, but I can make your website load
+            faster than you can say &apos;abracadabra&apos;
+          </div>
         </div>
       </div>
     </>

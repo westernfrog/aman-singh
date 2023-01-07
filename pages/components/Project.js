@@ -5,9 +5,12 @@ export default function Project(props) {
     <>
       <div className="container" id="projects">
         <div className="row my-5 text-rubik p-3">
-          <button className="btn text-light p-0">
+          <button
+            className="btn text-light p-0 btnp"
+            style={{ boxShadow: "inherit" }}
+          >
             <div
-              className="col-md-12 bg-dark p-5 mx-auto shadow"
+              className="col-md-12 bg-dark p-5 mx-auto shadow-sm"
               style={{ borderRadius: "2rem" }}
             >
               <div
