@@ -18,8 +18,8 @@ export default function Footer(params) {
             }}
           >
             Have an exciting project where you need some help? <br />
-            Send me over a message, and&nbsp;
-            <span className="text-decoration-underline bg-dark">
+            Send me over a message, <br />
+            <span className="text-decoration-underline bg-light rounded-pill px-3 py-1 text-black">
               let&apos;s chat.
             </span>
           </p>
