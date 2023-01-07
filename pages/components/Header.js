@@ -4,7 +4,7 @@ import Link from "next/link";
 export default function Header() {
   return (
     <>
-      <div className="shadow sticky-top">
+      <div className="shadow sticky-top bg-black">
         <div className="container">
           <nav className="navbar navbar-expand-lg navbar-dark fs-5 py-3">
             <div className="container-fluid text-rubik px-0">

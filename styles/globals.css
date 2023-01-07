@@ -55,12 +55,7 @@ main {
     transform: rotate(1turn);
   }
 }
-/* .rose {
-  background-image: url("https://cdn-icons-png.flaticon.com/512/9120/9120832.png");
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
-} */
+
 .lamp {
   position: absolute;
   top: 50%;
