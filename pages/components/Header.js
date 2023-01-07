@@ -112,7 +112,7 @@ export default function Header() {
                   <li className="nav-item d-none d-lg-block">
                     <Link
                       className="nav-link"
-                      href="https://www.linkedin.com/aman-singh123"
+                      href="https://www.linkedin.com/in/aman-singh123/"
                     >
                       <i className="fa-brands fa-linkedin-in fa-lg"></i>
                     </Link>
