@@ -101,12 +101,19 @@ export default function Header() {
                     </Link>
                   </li>
                   <li className="nav-item me-4 d-none d-lg-block">
-                    <Link className="nav-link" aria-current="page" href="/">
+                    <Link
+                      className="nav-link"
+                      aria-current="page"
+                      href="https://github.com/westernfrog"
+                    >
                       <i className="fa-brands fa-github fa-lg"></i>
                     </Link>
                   </li>
                   <li className="nav-item d-none d-lg-block">
-                    <Link className="nav-link" href="/">
+                    <Link
+                      className="nav-link"
+                      href="https://www.linkedin.com/aman-singh123"
+                    >
                       <i className="fa-brands fa-linkedin-in fa-lg"></i>
                     </Link>
                   </li>
