@@ -14,7 +14,12 @@ body {
   overflow-x: hidden;
   background-color: #111;
 }
-
+.rose {
+  background-image: url("https://cdn-icons-png.flaticon.com/512/8263/8263510.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
 .lamp {
   position: absolute;
   top: 50%;
