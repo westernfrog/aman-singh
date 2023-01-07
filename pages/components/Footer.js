@@ -12,7 +12,7 @@ export default function Footer(params) {
             Lets get in touch!
           </h1>
           <p
-            className="text-any fs-5 text-center mt-4"
+            className="text-rubik fs-5 text-center mt-4"
             style={{
               textShadow: " 0 0 3px #111, 0 0 3px #191919",
             }}
