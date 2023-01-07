@@ -18,8 +18,8 @@ export default function Aboutme(params) {
           <div className="col-lg-6 order-first">
             <h1 className="display-5 fw-bold lh-1 mb-3 text-mono">
               Hi, I am Aman. A Front-end Developer. Currently pursuing
-              Bachelor's degree in Computer Science Engineering from Chandigarh
-              University.
+              Bachelor&apos;s degree in Computer Science Engineering from
+              Chandigarh University.
             </h1>
             <p className="lead text-rubik">
               I have my skills in Web Development and I started building sites
