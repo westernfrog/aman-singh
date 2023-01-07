@@ -10,7 +10,7 @@ export default function Home(params) {
             <h1
               className="display-5 fw-bold lh-1 mb-3 text-mono"
               style={{
-                textShadow: " 0 0 3px #000, 0 0 3px red",
+                textShadow: "0 0 3px #000, 0 0 3px #eee",
               }}
             >
               Hi, I&apos;m Aman Singh.
@@ -19,7 +19,7 @@ export default function Home(params) {
             <p
               className="lead text-rubik"
               style={{
-                textShadow: " 0 0 2px #000, 0 0 1px #eee",
+                textShadow: "0 0 2px #000, 0 0 1px #eee",
               }}
             >
               I build stuffs for the web and bring them to life by using HTML,
