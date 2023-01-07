@@ -12,7 +12,7 @@ export default function Footer(params) {
           <p className="text-rubik fs-3 text-center mt-4">
             Have an exciting project where you need some help? <br />
             Send me over a message, and&nbsp;
-            <span className="text-decoration-underline">let's chat.</span>
+            <span className="text-decoration-underline">let&apos;s chat.</span>
           </p>
         </div>
       </div>

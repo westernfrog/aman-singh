@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Graphics from "./Graphics";
 
 export default function Home(params) {
@@ -17,13 +18,12 @@ export default function Home(params) {
             </p>
           </div>
           <div class="col-10 col-sm-8 col-lg-6">
-            <img
+            <Image
               src="https://cdn-icons-png.flaticon.com/512/1087/1087460.png"
               class="d-block mx-lg-auto img-fluid"
               alt="Bootstrap Themes"
               width="500"
               height="500"
-              loading="lazy"
             />
           </div>
         </div>
