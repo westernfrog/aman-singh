@@ -26,8 +26,8 @@ export default function Home(params) {
               height="500"
               priority
             />
+            <Graphics />
           </div>
-          <Graphics />
         </div>
       </div>
     </>
