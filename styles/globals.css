@@ -7,6 +7,9 @@
 .text-mono {
   font-family: "Anybody", serif;
 }
+.text-any {
+  font-family: "Roboto Mono", sans-serif;
+}
 .bg-dark {
   background-color: #191919 !important;
 }
@@ -53,7 +56,7 @@ main {
   }
 }
 .rose {
-  background-image: url("https://cdn-icons-png.flaticon.com/512/7091/7091502.png");
+  background-image: url("https://cdn-icons-png.flaticon.com/512/9120/9120832.png");
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;

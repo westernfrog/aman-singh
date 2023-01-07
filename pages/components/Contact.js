@@ -13,7 +13,7 @@ export default function Contact() {
           data-bs-target="#offcanvasRight"
           aria-controls="offcanvasRight"
         >
-          <i className="fa-solid fa-comment"></i>
+          <i class="fa-regular fa-comment fa-lg"></i>
         </button>
 
         <div
