@@ -8,7 +8,7 @@ export default function Aboutme(params) {
           <div className="col-10 col-sm-8 col-lg-6">
             <Image
               src="https://cdn-icons-png.flaticon.com/512/9120/9120832.png"
-              className="d-block mx-lg-auto img-fluid d-none d-lg-block"
+              className="d-block mx-lg-auto img-fluid"
               alt="Bootstrap Themes"
               width="400"
               height="400"

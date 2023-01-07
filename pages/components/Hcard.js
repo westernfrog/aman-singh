@@ -5,7 +5,7 @@ export default function Hcard(props) {
         class="card text-light bg-dark my-3 mx-auto px-2"
         style={{ borderRadius: "1.7em" }}
       >
-        <div className="row">
+        <div className="row mx-0 px-0">
           <div className="col-8">
             <div class="card-body text-rubik">
               <p class="card-title fs-5">{props.title}</p>
