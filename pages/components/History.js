@@ -3,7 +3,7 @@ import Hcard from "./Hcard";
 export default function History() {
   return (
     <>
-      <div className="container my-5">
+      <div className="container">
         <div className="text-light h3 text-mono fw-bold text-center">
           A Brief History
         </div>

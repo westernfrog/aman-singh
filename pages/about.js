@@ -1,3 +1,4 @@
+import Aboutme from "./components/About";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
@@ -8,6 +9,7 @@ export default function About(params) {
     <>
       <Header />
       <Contact />
+      <Aboutme />
       <History />
       <Footer />
     </>

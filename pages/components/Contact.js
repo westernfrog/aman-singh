@@ -17,7 +17,7 @@ export default function Contact() {
         </button>
 
         <div
-          className="offcanvas offcanvas-end mx-lg-5 my-lg-5 rounded-3 bg-black my-2"
+          className="offcanvas offcanvas-end mx-lg-5 my-lg-5 rounded-3 bg-black"
           tabindex="-1"
           id="offcanvasRight"
           aria-labelledby="offcanvasRightLabel"
@@ -31,7 +31,7 @@ export default function Contact() {
                   aria-current="true"
                 >
                   <img
-                    src="https://cdn-icons-png.flaticon.com/512/185/185788.png"
+                    src="https://cdn-icons-png.flaticon.com/512/8263/8263515.png"
                     alt="twbs"
                     width="32"
                     height="32"
