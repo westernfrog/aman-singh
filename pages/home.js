@@ -30,7 +30,7 @@ export default function Home(params) {
           <div className="col-10 col-sm-8 col-lg-6">
             <Image
               src="https://cdn-icons-png.flaticon.com/512/1087/1087460.png"
-              className="d-block mx-lg-auto img-fluid"
+              className="d-block mx-lg-auto img-fluid btnp"
               alt="Bootstrap Themes"
               width="500"
               height="500"

@@ -3,7 +3,7 @@ export default function Contact() {
     <>
       <div className="container">
         <button
-          className="btn btn-dark btn-lg fixed-bottom mx-lg-5 my-lg-5 rounded-pill mx-3 my-5 btnp shadow"
+          className="btn bg-dark btn-lg fixed-bottom mx-lg-5 my-lg-5 rounded-pill mx-3 my-5 btnp shadow"
           style={{
             left: "auto",
             boxShadow: "inherit",
@@ -13,7 +13,7 @@ export default function Contact() {
           data-bs-target="#offcanvasRight"
           aria-controls="offcanvasRight"
         >
-          <i class="fa-regular fa-comment fa-lg"></i>
+          <i class="fa-regular fa-comment fa-lg text-light"></i>
         </button>
 
         <div
@@ -39,7 +39,7 @@ export default function Contact() {
                   />
                   <div class="d-flex gap-2 w-100 justify-content-between bg-dark text-light">
                     <div>
-                      <h6 class="mb-0 text-rubik">Amswe Bot</h6>
+                      <h5 class="mb-0 text-rubik">Amswe Bot</h5>
                       <p class="mb-0 opacity-75 h6 text-dm">
                         Ask me a question!
                       </p>

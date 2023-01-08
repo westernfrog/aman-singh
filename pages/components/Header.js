@@ -20,7 +20,7 @@ export default function Header() {
                   alt="a rose"
                   width="30"
                   height="30"
-                  className="d-inline-block me-2"
+                  className="d-inline-block me-2 btnp"
                 ></Image>
                 Aman Singh
               </Link>
@@ -52,9 +52,9 @@ export default function Header() {
                     </Link>
                   </li>
                   <li className="nav-item">
-                    <a className="nav-link" href="#projects">
+                    <Link className="nav-link" href="#projects">
                       Projects
-                    </a>
+                    </Link>
                   </li>
                   <li className="nav-item d-lg-none">
                     <Link
@@ -106,7 +106,7 @@ export default function Header() {
                       aria-current="page"
                       href="https://github.com/westernfrog"
                     >
-                      <i className="fa-brands fa-github fa-lg"></i>
+                      <i className="fa-brands fa-github fa-lg btnp"></i>
                     </Link>
                   </li>
                   <li className="nav-item d-none d-lg-block">
@@ -114,7 +114,7 @@ export default function Header() {
                       className="nav-link"
                       href="https://www.linkedin.com/in/aman-singh123/"
                     >
-                      <i className="fa-brands fa-linkedin-in fa-lg"></i>
+                      <i className="fa-brands fa-linkedin-in fa-lg btnp"></i>
                     </Link>
                   </li>
                 </ul>

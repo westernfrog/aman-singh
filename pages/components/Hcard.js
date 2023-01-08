@@ -2,7 +2,7 @@ export default function Hcard(props) {
   return (
     <>
       <div
-        class="card text-light bg-dark my-3 mx-auto px-2"
+        class="card text-light bg-dark my-3 mx-auto px-2 btnp"
         style={{ borderRadius: "1.7em" }}
       >
         <div className="row mx-0 px-0">
