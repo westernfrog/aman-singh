@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function Contact() {
   return (
     <>
@@ -30,7 +32,7 @@ export default function Contact() {
                   class="list-group-item list-group-item-action d-flex gap-3 py-3 bg-dark border-0"
                   aria-current="true"
                 >
-                  <img
+                  <Image
                     src="https://cdn-icons-png.flaticon.com/512/8263/8263515.png"
                     alt="twbs"
                     width="32"
