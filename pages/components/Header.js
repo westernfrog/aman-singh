@@ -52,7 +52,7 @@ export default function Header() {
                     </Link>
                   </li>
                   <li className="nav-item">
-                    <Link className="nav-link" href="#projects">
+                    <Link className="nav-link" href="/#projects">
                       Projects
                     </Link>
                   </li>
@@ -74,9 +74,9 @@ export default function Header() {
                 <ul className="navbar-nav me-auto">
                   <li className="nav-item">
                     <main className="py-0">
-                      <div class="circle">
-                        <div class="circle">
-                          <div class="circle"></div>
+                      <div className="circle">
+                        <div className="circle">
+                          <div className="circle"></div>
                         </div>
                       </div>
                     </main>

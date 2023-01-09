@@ -1,11 +1,13 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Project(props) {
   return (
     <>
       <div className="container" id="projects">
         <div className="row my-5 text-rubik p-3">
-          <button
+          <Link
+            href={"/" + props.link}
             className="btn text-light p-0 btnp"
             style={{ boxShadow: "inherit" }}
           >
@@ -28,7 +30,7 @@ export default function Project(props) {
                 height={"500"}
               />
             </div>
-          </button>
+          </Link>
         </div>
       </div>
     </>

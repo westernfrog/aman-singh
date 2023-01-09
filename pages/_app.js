@@ -23,10 +23,6 @@ export default function App({ Component, pageProps }) {
         src="https://kit.fontawesome.com/5818d7bece.js"
         crossorigin="anonymous"
       ></Script>
-      <Script
-        src="https://open.spotify.com/embed-podcast/iframe-api/v1"
-        async
-      ></Script>
       <Component {...pageProps} />
     </>
   );

@@ -15,21 +15,21 @@ export default function Contact() {
           data-bs-target="#offcanvasRight"
           aria-controls="offcanvasRight"
         >
-          <i class="fa-regular fa-comment fa-lg text-light"></i>
+          <i className="fa-regular fa-comment fa-lg text-light"></i>
         </button>
 
         <div
           className="offcanvas offcanvas-end mx-lg-5 my-lg-5 rounded-3 bg-black"
-          tabindex="-1"
+          tabIndex="-1"
           id="offcanvasRight"
           aria-labelledby="offcanvasRightLabel"
         >
           <div className="offcanvas-header bg-dark text-light rounded-3 shadow-sm">
             <h5 id="offcanvasRightLabel">
-              <div class="list-group">
+              <div className="list-group">
                 <a
                   href="#"
-                  class="list-group-item list-group-item-action d-flex gap-3 py-3 bg-dark border-0"
+                  className="list-group-item list-group-item-action d-flex gap-3 py-3 bg-dark border-0"
                   aria-current="true"
                 >
                   <Image
@@ -37,12 +37,12 @@ export default function Contact() {
                     alt="twbs"
                     width="32"
                     height="32"
-                    class="rounded-circle flex-shrink-0"
+                    className="rounded-circle flex-shrink-0"
                   />
-                  <div class="d-flex gap-2 w-100 justify-content-between bg-dark text-light">
+                  <div className="d-flex gap-2 w-100 justify-content-between bg-dark text-light">
                     <div>
-                      <h5 class="mb-0 text-rubik">Amswe Bot</h5>
-                      <p class="mb-0 opacity-75 h6 text-dm">
+                      <h5 className="mb-0 text-rubik">Amswe Bot</h5>
+                      <p className="mb-0 opacity-75 h6 text-dm">
                         Ask me a question!
                       </p>
                     </div>
@@ -56,7 +56,7 @@ export default function Contact() {
               data-bs-dismiss="offcanvas"
               aria-label="Close"
             >
-              <i class="fa-solid fa-xmark fa-lg text-light"></i>
+              <i className="fa-solid fa-xmark fa-lg text-light"></i>
             </button>
           </div>
           <div className="offcanvas-body text-light">
