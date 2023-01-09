@@ -15,7 +15,7 @@ export default function PPage(props) {
               {props.title}
               <p className="lead text-rubik">
                 {props.lang}
-                <Link href={props.link}>
+                <Link href={props.link ?? " "}>
                   <i className="fa-solid fa-arrow-up-right-from-square h5 btnp ms-3"></i>
                 </Link>
               </p>
