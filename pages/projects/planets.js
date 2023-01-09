@@ -2,7 +2,7 @@ import PPage from "../components/PPage";
 import img1 from "../../public/carnetHome.png";
 import img2 from "../../public/carnetChat.png";
 
-export default function carnet() {
+export default function planets() {
   return (
     <>
       <PPage

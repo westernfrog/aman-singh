@@ -45,7 +45,6 @@ export default function PPage(props) {
             height="3000"
             priority="true"
           />
-          <p className="text-center mt-4">{props.body}</p>
         </div>
       </div>
       <Contact />

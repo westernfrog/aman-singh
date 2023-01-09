@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-export default function Aboutme(params) {
+export default function Aboutme() {
   return (
     <>
       <div className="container col-xxl-12 py-5 text-white mb-5">

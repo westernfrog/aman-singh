@@ -9,10 +9,9 @@ export default function carnet() {
         title="carnet."
         lang="next.js and mongoDB"
         link="https://carnet69.vercel.app/"
-        head="a place where you can see the divine meeting of front-end with back-end. ✨"
+        head="a place where you can see the divine meeting of front-end with back-end. 📝✨"
         img1={img1}
         img2={img2}
-        body="the data from the input field goes directly to MongoDB database and that data is display in a form of note."
       />
     </>
   );

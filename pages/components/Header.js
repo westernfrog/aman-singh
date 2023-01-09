@@ -100,16 +100,16 @@ export default function Header() {
                       Contact
                     </Link>
                   </li>
-                  <li className="nav-item me-4 d-none d-lg-block">
+                  <li className="nav-item me-4 d-none d-lg-block btnp">
                     <Link
                       className="nav-link"
                       aria-current="page"
                       href="https://github.com/westernfrog"
                     >
-                      <i className="fa-brands fa-github fa-lg btnp"></i>
+                      <i className="fa-brands fa-github fa-lg"></i>
                     </Link>
                   </li>
-                  <li className="nav-item d-none d-lg-block">
+                  <li className="nav-item d-none d-lg-block btnp">
                     <Link
                       className="nav-link"
                       href="https://www.linkedin.com/in/aman-singh123/"
