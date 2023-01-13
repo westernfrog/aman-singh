@@ -103,7 +103,7 @@ export default function Contact() {
                 onChange={(e) => handleChange(e)}
               ></textarea>
               <button
-                className="btn btn-dark btn-sm my-3 rounded-pill px-3 btnReload text-rubik shadow-sm"
+                className="btn btn-dark btn-sm my-3 rounded-pill px-3 btnReload text-rubik shadow-sm text-primary"
                 role="button"
                 onClick={handleSubmit}
                 data-bs-toggle="offcanvas"
@@ -111,7 +111,7 @@ export default function Contact() {
                 aria-controls="offcanvasRight"
                 autoCorrect="false"
               >
-                Send <i class="fa-regular fa-paper-plane ms-2"></i>
+                send <i class="fa-regular fa-paper-plane ms-2"></i>
               </button>
             </div>
           </div>
