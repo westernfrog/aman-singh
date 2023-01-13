@@ -77,9 +77,10 @@ export default function Contact() {
             </h5>
             <button
               type="button"
-              className="text-reset bg-dark btn"
+              className="text-reset btn-dark btn btn-lg bg-dark border-0"
               data-bs-dismiss="offcanvas"
               aria-label="Close"
+              style={{ boxShadow: "inherit" }}
             >
               <i className="fa-solid fa-xmark fa-lg text-light"></i>
             </button>
@@ -102,7 +103,7 @@ export default function Contact() {
                 onChange={(e) => handleChange(e)}
               ></textarea>
               <button
-                className="btn btn-dark my-3 rounded-pill px-3 btnReload"
+                className="btn btn-dark btn-sm my-3 rounded-pill px-3 btnReload text-rubik shadow-sm"
                 role="button"
                 onClick={handleSubmit}
                 data-bs-toggle="offcanvas"
@@ -110,7 +111,7 @@ export default function Contact() {
                 aria-controls="offcanvasRight"
                 autoCorrect="false"
               >
-                Send
+                Send <i class="fa-regular fa-paper-plane ms-2"></i>
               </button>
             </div>
           </div>
