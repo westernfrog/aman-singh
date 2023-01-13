@@ -1,8 +1,8 @@
-import Footer from "./components/Footer";
-import Header from "./components/Header";
+import Footer from "../components/Footer";
+import Header from "../components/Header";
 import Home from "./home";
-import Projects from "./components/Projects";
-import Contact from "./components/Contact";
+import Projects from "../components/Projects";
+import Contact from "../components/Contact";
 
 export default function Index() {
   return (

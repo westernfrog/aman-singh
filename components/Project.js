@@ -26,8 +26,8 @@ export default function Project(props) {
                 src={props.img}
                 className="img-fluid bg-dark mx-auto d-block rounded pb-5"
                 alt="project"
-                width={"300"}
-                height={"300"}
+                width={"250"}
+                height={"250"}
               />
             </div>
           </Link>

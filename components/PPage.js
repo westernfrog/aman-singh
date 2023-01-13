@@ -9,9 +9,9 @@ export default function PPage(props) {
     <>
       <Header />
       <div className="container col-xxl-12 pt-5 pb-2 text-white">
-        <div className="row align-items-center py-lg-5">
+        <div className="row align-items-center pb-lg-3 pt-lg-5">
           <div className="col-lg-6">
-            <h1 className="display-5 fw-bold mb-3 text-mono">
+            <h1 className="display-5 fw-bold mb-3]] text-mono">
               {props.title}
               <p className="lead text-rubik">
                 {props.lang}
@@ -20,7 +20,7 @@ export default function PPage(props) {
                 </Link>
               </p>
             </h1>
-            <p className="text-rubik mb-0">{props.head}</p>
+            <p className="text-rubik mb-0 h5">{props.head}</p>
           </div>
         </div>
       </div>

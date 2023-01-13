@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Graphics from "./components/Graphics";
+import Graphics from "../components/Graphics";
 
 export default function Home(params) {
   return (

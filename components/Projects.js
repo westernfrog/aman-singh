@@ -16,6 +16,12 @@ export default function Projects() {
         img="https://cdn-icons-png.flaticon.com/512/675/675780.png"
       />
       <Project
+        link="projects/todaynews"
+        title=".todaynews"
+        lang="Next.js and Fetch api"
+        img="https://cdn-icons-png.flaticon.com/512/2240/2240744.png"
+      />
+      <Project
         link="projects/songbird"
         title="SongBird"
         lang="React"
