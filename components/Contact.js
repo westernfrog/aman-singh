@@ -103,7 +103,7 @@ export default function Contact() {
                 onChange={(e) => handleChange(e)}
               ></textarea>
               <button
-                className="btn btn-dark btn-sm my-3 rounded-pill px-3 btnReload text-rubik shadow-sm text-primary"
+                className="btn btn-dark btn-sm my-3 rounded-pill px-3 btnReload text-rubik shadow-sm"
                 role="button"
                 onClick={handleSubmit}
                 data-bs-toggle="offcanvas"
