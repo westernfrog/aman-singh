@@ -4,7 +4,7 @@ import Link from "next/link";
 export default function Header() {
   return (
     <>
-      <div className="shadow sticky-top bg-black">
+      <div className="shadow sticky-top">
         <div className="container">
           <nav className="navbar navbar-expand-lg navbar-dark fs-5 py-3">
             <div className="container-fluid text-rubik px-0">
@@ -67,22 +67,7 @@ export default function Header() {
                   </li>
                 </ul>
               </div>
-              <div
-                className="collapse navbar-collapse d-none d-lg-block"
-                id="navbarNav"
-              >
-                <ul className="navbar-nav me-auto">
-                  <li className="nav-item">
-                    <main className="py-0">
-                      <div className="circle">
-                        <div className="circle">
-                          <div className="circle"></div>
-                        </div>
-                      </div>
-                    </main>
-                  </li>
-                </ul>
-              </div>
+
               <div className="collapse navbar-collapse" id="navbarNav">
                 <ul className="navbar-nav me-auto"></ul>
               </div>
